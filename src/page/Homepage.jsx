@@ -5,31 +5,31 @@ import "../App.css";
 function Homepage() {
   return (
     <main className="grid items-center justify-center h-screen grid-flow-col bg-slate-400">
-      <div className="grid items-center justify-center grid-cols-1 gap-6 p-6 grid-rows-auto bg-slate-400 lg:grid-cols-4 lg:grid-rows-2">
+      <div className="grid max-w-6xl grid-cols-1 gap-6 p-6 grid-rows-auto bg-slate-400 lg:grid-cols-4 lg:grid-rows-2">
         {data.map((item, index) => {
           return (
             <div
               key={index}
-              className={`card-${index} p-6 rounded-lg shadow-lg flex flex-col justify-evenly`}
+              className={`card-${index} p-6 rounded-lg shadow-lg flex flex-col justify-evenly hover:shadow-2xl cursor-pointer`}
             >
-              <div className="flex gap-3">
+              <div className="flex items-center gap-3">
                 <div>
                   <img
                     src={item.image}
                     alt="profile"
-                    className="w-full rounded-full ring-4 ring-slate-400"
+                    className="rounded-full w-7 h-7 ring-4 ring-slate-400"
                   />
                 </div>
                 <div>
-                  <h4 className="font-medium "> {item.name} </h4>
-                  <p className="opacity-50 "> {item.status} </p>
+                  <h4 className="text-xs font-medium "> {item.name} </h4>
+                  <p className="text-xs opacity-50"> {item.status} </p>
                 </div>
               </div>
-              <div className="z-20">
-                <h1 className="text-2xl font-semibold ">{item.title}</h1>
+              <div className="z-20 mt-4">
+                <h1 className="text-xl font-semibold ">{item.title}</h1>
               </div>
-              <div>
-                <p className="opacity-70">{item.detail}</p>
+              <div className="mt-4">
+                <p className="text-sm opacity-70">{item.detail}</p>
               </div>
               <div>
                 <img

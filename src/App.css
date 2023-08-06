@@ -8,21 +8,21 @@
 }
 
 .card-0 {
-  @apply relative lg:col-span-2 text-white bg-purple-500 min-h-[320px];
+  @apply relative text-white bg-purple-500 lg:col-span-2;
 }
 
 .card-1 {
-  @apply text-white bg-gray-600 min-h-[320px];
+  @apply text-white bg-gray-600;
 }
 
 .card-2 {
-  @apply h-full bg-white lg:row-span-2;
+  @apply bg-white lg:row-start-2;
 }
 
 .card-3 {
-  @apply bg-white min-h-[320px];
+  @apply text-white lg:col-span-2 bg-indigo-950;
 }
 
 .card-4 {
-  @apply lg:col-span-2 text-white bg-indigo-950 min-h-[320px];
+  @apply bg-white lg:row-span-2 lg:row-start-1 lg:col-start-4;
 }
