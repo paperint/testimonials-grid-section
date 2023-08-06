@@ -15,6 +15,6 @@ https://inspiring-kelpie-61d651.netlify.app
 - Vite React
 
 ## Author
-- Linkedin - [@Tanakit Kankangboon](www.linkedin.com/in/tanakit-kankangboon-32329b1a5)
+- Linkedin - [@Tanakit Kankangboon](https://www.linkedin.com/in/tanakit-kankangboon-32329b1a5)
   
 
